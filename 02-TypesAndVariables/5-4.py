@@ -1,0 +1,5 @@
+total_price = float(input("Enter the price :"))
+price_after_vat = round(float((total_price * 77)/100), 2)
+vat_23 = round(total_price - price_after_vat, 2)
+print(f"Amount : {total_price}")
+print(f"Vat 23% : {vat_23}")
