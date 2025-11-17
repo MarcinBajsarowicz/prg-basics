@@ -1,5 +1,5 @@
 total_tasks = 20
-tasks_ok = int(input("Enter the aount of tasks completed:"))
+tasks_ok = int(input("Enter the amount of tasks completed:"))
 test_passed = False
 
 if tasks_ok / total_tasks >= 0.5 :
