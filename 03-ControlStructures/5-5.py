@@ -13,7 +13,7 @@ while True:
     count += 1
     arithmetic_mean = 0
     if count > 0:
-        arithmetic_mean = total_sum/number
+        arithmetic_mean = total_sum/count
 
 print(f"The total sum of the numbers is: {total_sum}")
 print(f"The total sum of the numbers is: {arithmetic_mean}")
