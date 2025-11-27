@@ -2,5 +2,6 @@
 # Reads from file, line by line
 #
 with open('countries.txt', 'r') as file:
-    for line in file:
-        print(line, end="")
+    for i,line in enumerate(file, start = 1 ):
+            
+        print(i,line, end="")
